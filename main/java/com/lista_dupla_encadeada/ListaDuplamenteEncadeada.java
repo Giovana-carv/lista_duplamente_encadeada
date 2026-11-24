@@ -11,7 +11,6 @@ public class ListaDuplamenteEncadeada {
         this.fim = null;
     }
 
-    // Insere no final da lista
     public void inserir(String valor) {
 
         No novoNo = new No(valor);
@@ -29,7 +28,6 @@ public class ListaDuplamenteEncadeada {
         }
     }
 
-    // Insere no começo da lista
     public void inserirInicio(String valor) {
 
         No novoNo = new No(valor);
@@ -47,7 +45,6 @@ public class ListaDuplamenteEncadeada {
         }
     }
 
-    // Insere em uma posição específica
     public void inserirPosicao(String valor, int posicao) {
 
         if (posicao < 0 || posicao > tamanho()) {
@@ -81,7 +78,6 @@ public class ListaDuplamenteEncadeada {
         atual.anterior = novoNo;
     }
 
-    // Exibe os valores da lista
     public void exibir() {
 
         No atual = inicio;
@@ -96,7 +92,7 @@ public class ListaDuplamenteEncadeada {
         System.out.println();
     }
 
-    // Exibe os valores do fim para o início
+
     public void exibirInverso() {
 
         No atual = fim;
@@ -111,7 +107,7 @@ public class ListaDuplamenteEncadeada {
         System.out.println();
     }
 
-    // Remove um valor específico da lista
+
     public void remover(String valor) {
 
         No atual = inicio;
@@ -146,7 +142,6 @@ public class ListaDuplamenteEncadeada {
         }
     }
 
-    // Remove o primeiro nó
     public void removerInicio() {
 
         if (inicio == null) {
@@ -165,7 +160,7 @@ public class ListaDuplamenteEncadeada {
         }
     }
 
-    // Remove o último nó
+
     public void removerFim() {
 
         if (fim == null) {
@@ -184,7 +179,6 @@ public class ListaDuplamenteEncadeada {
         }
     }
 
-    // Remove um nó de uma posição específica
     public void removerPosicao(int posicao) {
 
         if (posicao < 0 || posicao >= tamanho()) {
@@ -216,7 +210,6 @@ public class ListaDuplamenteEncadeada {
         atual = null;
     }
 
-    // Verifica se um valor está na lista
     public boolean contem(String valor) {
 
         No atual = inicio;
@@ -233,7 +226,6 @@ public class ListaDuplamenteEncadeada {
         return false;
     }
 
-    // Retorna a quantidade de elementos
     public int tamanho() {
 
         int contador = 0;
@@ -249,7 +241,6 @@ public class ListaDuplamenteEncadeada {
         return contador;
     }
 
-    // Esvazia a lista
     public void esvaziar() {
 
         inicio = null;

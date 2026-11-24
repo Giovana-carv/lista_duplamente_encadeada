@@ -6,7 +6,6 @@ public class Main {
 
         ListaDuplamenteEncadeada lista = new ListaDuplamenteEncadeada();
 
-        // ETAPA 1
         System.out.println("===== ETAPA 1 =====");
 
         lista.inserir("Homer");
@@ -14,14 +13,12 @@ public class Main {
 
         lista.exibir();
 
-        // ETAPA 2
         System.out.println("\n===== ETAPA 2 =====");
 
         lista.esvaziar();
 
         lista.exibir();
 
-        // ETAPA 3
         System.out.println("\n===== ETAPA 3 =====");
 
         lista.inserir("Homer");
@@ -30,14 +27,12 @@ public class Main {
 
         lista.exibir();
 
-        // ETAPA 4
         System.out.println("\n===== ETAPA 4 =====");
 
         lista.esvaziar();
 
         lista.exibir();
 
-        // ETAPA 5
         System.out.println("\n===== ETAPA 5 =====");
 
         lista.inserir("Homer");
@@ -48,14 +43,12 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 6
         System.out.println("\n===== ETAPA 6 =====");
 
         lista.esvaziar();
 
         lista.exibir();
 
-        // ETAPA 7
         System.out.println("\n===== ETAPA 7 =====");
 
         lista.inserir("Homer");
@@ -67,14 +60,12 @@ public class Main {
 
         System.out.println("Lisa está na lista? " + lista.contem("Lisa"));
 
-        // ETAPA 8
         System.out.println("\n===== ETAPA 8 =====");
 
         lista.esvaziar();
 
         lista.exibir();
 
-        // ETAPA 9
         System.out.println("\n===== ETAPA 9 =====");
 
         lista.inserir("Homer");
@@ -84,7 +75,6 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 10
         System.out.println("\n===== ETAPA 10 =====");
 
         System.out.println("Marge está na lista? " + lista.contem("Marge"));
@@ -96,14 +86,12 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 11
         System.out.println("\n===== ETAPA 11 =====");
 
         lista.esvaziar();
 
         lista.exibir();
 
-        // ETAPA 12
         System.out.println("\n===== ETAPA 12 =====");
 
         lista.inserirInicio("Homer");
@@ -115,14 +103,12 @@ public class Main {
 
         lista.exibir();
 
-        // ETAPA 13
         System.out.println("\n===== ETAPA 13 =====");
 
         lista.removerFim();
 
         lista.exibir();
 
-        // ETAPA 14
         System.out.println("\n===== ETAPA 14 =====");
 
         lista.removerPosicao(1);
@@ -131,7 +117,6 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 15
         System.out.println("\n===== ETAPA 15 =====");
 
         System.out.println("Marge está na lista? " + lista.contem("Marge"));
@@ -143,7 +128,6 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 16
         System.out.println("\n===== ETAPA 16 =====");
 
         lista.removerInicio();
@@ -152,7 +136,7 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 17
+
         System.out.println("\n===== ETAPA 17 =====");
 
         System.out.println("Marge está na lista? " + lista.contem("Marge"));
@@ -164,7 +148,6 @@ public class Main {
 
         System.out.println("Tamanho: " + lista.tamanho());
 
-        // ETAPA 18
         System.out.println("\n===== ETAPA 18 =====");
 
         lista.esvaziar();
